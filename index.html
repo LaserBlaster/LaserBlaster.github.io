@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Keith's Helmets</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- My CSS file-->
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <!-- Bootstrap files -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-fixed-top navbar-inverse w-100" style="margin: 0px;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Keith's Helmets</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#products-section">Products</a></li>
+          <li><a href="#how-they-are-made-title">How They're Made</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Opening Picture -->
+  <img id="top-background-image" src="/images/background_image.png">
+
+  <!-- Products section-->
+  <div class="container" id="products-section">
+    <h2 class="section-title">Products</h2>  
+    <!-- Helmet without visor section-->
+    <h3 class="product-type">Wearable Helmet Without Visor</h3>
+    <div id="helmetWithoutVisorCarousel" class="carousel slide products" data-interval="false">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#helmetWithoutVisorCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#helmetWithoutVisorCarousel" data-slide-to="1"></li>
+        <li data-target="#helmetWithoutVisorCarousel" data-slide-to="2"></li>
+        <li data-target="#helmetWithoutVisorCarousel" data-slide-to="3"></li>
+        <li data-target="#helmetWithoutVisorCarousel" data-slide-to="4"></li>
+        <li data-target="#helmetWithoutVisorCarousel" data-slide-to="5"></li>
+        <li data-target="#helmetWithoutVisorCarousel" data-slide-to="6"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <!-- Pictures without visor -->
+        <div class="item active">
+          <img src="images/products_pics/no_visor_front_view.JPG" alt="#" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="images/products_pics/no_visor_right_view.JPG" alt="#" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="images/products_pics/no_visor_left_view.JPG" alt="#" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="images/products_pics/no_visor_rear_view.JPG" alt="#" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="images/products_pics/no_visor_front_view_wearing.JPG" alt="#" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="images/products_pics/no_visor_right_view_wearing.JPG" alt="#" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="images/products_pics/no_visor_left_view_wearing.JPG" alt="#" style="width:100%;">
+        </div>
+  
+  
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#helmetWithoutVisorCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#helmetWithoutVisorCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <p class="description">This helmet is made to wear</p>
+  
+    <!-- Helmet without visor section-->
+    <h3 class="product-type">Display Helmet</h3>
+    <div id="displayHelmetCarousel" class="carousel slide products" data-interval="false">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#displayHelmetCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#displayHelmetCarousel" data-slide-to="1"></li>
+        <li data-target="#displayHelmetCarousel" data-slide-to="2"></li>
+        <li data-target="#displayHelmetCarousel" data-slide-to="3"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <!-- Pictures of display model of helmet -->
+  
+        <div class="item active">
+          <img src="images/products_pics/display_helmet_right_view.PNG" alt="#" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="images/products_pics/display_helmet_left_view.PNG" alt="#" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="images/products_pics/display_helmet_front_view.PNG" alt="#" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="images/products_pics/display_helmet_rear_view.PNG" alt="#" style="width:100%;">
+        </div>
+  
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#displayHelmetCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#displayHelmetCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <p class="description">This helmet is made to sit on a shelf</p>
+    
+  
+    <!-- This Section is about how the helmets are made -->
+  
+    
+    <h2 class="section-title" id="how-they-are-made-title">How They're Made</h2>  
+    <div id="howTheyreMade" class="carousel slide products" data-interval="false">
+
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#howTheyreMade" data-slide-to="0" class="active"></li>
+        <li data-target="#howTheyreMade" data-slide-to="1"></li>
+        <li data-target="#howTheyreMade" data-slide-to="2"></li>
+        <li data-target="#howTheyreMade" data-slide-to="3"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <!-- Pictures without visor -->
+        <div class="item active">
+          <img src="images/production_pics/silicon_mold_front.JPG" alt="#" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="images/production_pics/silicon_mold_top.JPG" alt="#" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="images/production_pics/plaster_mold_outside.JPG" alt="#" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="images/production_pics/plaster_mold_inside.JPG" alt="#" style="width:100%;">
+        </div>
+  
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#howTheyreMade" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#howTheyreMade" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <p class="description">This helmet is made to wear</p>  
+  </div>
+  <!-- About me section-->
+  <div class="container"  id="about-me">
+    <h2>About Me</h2>
+    <div class="media">
+      <div class="media-left">
+        <img src="images/about_me_pic.PNG" class="media-object" id="about-me-picture">
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">Keith Long</h4>
+        <p>I am an independent artist working in Asheville, North Carolina. These helmets are not my only artwork. 
+        I also paint and do woodworking. My Alma Mater is Western Carolina University where I received a B.S. in Biology</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Contacts section at footer-->
+  <footer>
+    <h3 id="contacts">Contact Me</h3>
+    <p>My email is <a href="#">keithshelmets@gmail.com</a></p>
+    <p>Visit my <a href="#">Facebook</a> page</p>
+    <p>Visit my <a href="#">Etsy</a> page</p>
+</footer> 
+</body>
+</html>
